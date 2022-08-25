@@ -1,0 +1,21 @@
+body{
+    background-color:#222021;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.header__logo{
+    position: absolute;
+    width: 197px;
+    height: 83.8px;
+    left: 102px;
+    top: 50px;
+}
+.header{
+    position: absolute;
+    width: 605px;
+    height: 24px;
+    left: 719px;
+    top: 73px;
+}
