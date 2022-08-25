@@ -1,21 +1,188 @@
+html{
+    position: relative;
+    width: 100%;
+    max-width: 1440px !important;
+    height: 6861px;
+}
 body{
+    left: 0px;
+    top: 0px;
     background-color:#222021;
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
 }
+.vector{
+    padding-left: 10%;
+
+}
+/* Header Start */
 .header__logo{
     position: absolute;
     width: 197px;
     height: 83.8px;
     left: 102px;
     top: 50px;
+    background-image: url(/public/img/svg/logo.svg);
+}
+.header__logo:hover, .header__logo:active, .header__logo:focus{
+    opacity: .75;
 }
 .header{
     position: absolute;
     width: 605px;
     height: 24px;
-    left: 719px;
-    top: 73px;
+    left: 1219px;
+    top: 60px;
 }
+.link:hover, .link:active, .link:focus{
+    opacity: .75;
+}
+.link4:hover, .link4:active, .link4:focus{
+    opacity: .75;
+}
+.link{
+    margin-right: 52px;
+    font-family: 'Montserrat'sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #F5F5F5;
+    text-decoration: none;
+}
+.link4{
+    font-family: 'Montserrat'sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F5F5F5;
+    text-decoration: none;
+}
+/* Header End */
+/* Wood Start */
+.wood__back{
+    position: absolute;
+    width: 908px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    background-image: url(/public/img/pexels-lumn-235309\ 2.png);
+    color:rgba(34, 32, 33, 0.49);
+    border-radius: 11px 42px 42px 11px;
+}
+.wood__grow{ 
+position: absolute;
+width: 1307px;
+height: 680px;
+left: 595px;
+top: 218px;
+
+background: #1E0C06;
+border-radius: 43px 0px 0px 43px;
+filter: drop-shadow(0px 4px 52px rgba(245, 245, 245, 0.17)); 
+}
+.solid{
+    position: absolute;
+width: 622px;
+height: 321px;
+left: 650px;
+top: 200px;
+
+font-family: 'Aboreto', cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 90px;
+line-height: 115.4%;
+
+
+text-transform: uppercase;
+
+color: #F5F5F5;
+}
+.solid__under{
+    position: absolute;
+    width: 333px;
+    height: 78px;
+    left: 650px;
+    top: 570px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+
+    color: #FFDBBB;
+}
+.solid__button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 70px;
+    gap: 10px;
+
+    position: absolute;
+    width: 225px;
+    height: 58px;
+    left: 650px;
+    top: 750px;
+
+    background: #728BAD;
+    border-radius: 42px;
+    border: #728BAD;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #F5F5F5;
+}
+.solid__button:active, .solid__button:hover, .solid__button:focus{
+    opacity: .75;
+}
+.line1{
+    position: absolute;
+    width: 511px;
+    height: 0px;
+    left: 950px;
+    top: 530px;
+
+    border: 1px solid #F5F5F5;
+    transform: rotate(90deg);
+
+}
+.wood1{
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    left: 1240px;
+    top: 500px;
+    filter: drop-shadow(0px 4px 8px rgba(245, 245, 245, 0.17)); 
+
+}
+.wood2{
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    left: 1570px;
+    top: 270px;
+    filter: drop-shadow(0px 4px 8px rgba(245, 245, 245, 0.17)); 
+}
+.wood3{
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    left: 1570px;
+    top: 600px;
+    filter: drop-shadow(0px 4px 8px rgba(245, 245, 245, 0.17)); 
+}
+/* Wood End */
