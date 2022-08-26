@@ -566,6 +566,14 @@ color: #F5F5F5;
 .line1-anim{
     animation: line1-anim 1s 1;
 }
+/* Header Logo */
+@keyframes header__logo-anim{
+    from{left: -100px;}
+    to{left: 102px;}
+}
+.header__logo-anim{
+    animation: header__logo-anim 1.5s 1;
+}
   /* Solid Animation End */
   /* Work Start */
 .our__work{
