@@ -40,22 +40,49 @@ body{
     left: 1219px;
     top: 60px;
 }
-.link:hover, .link:active, .link:focus{
+.link1:hover, .link:active, .link:focus{
     opacity: .75;
 }
 .link4:hover, .link4:active, .link4:focus{
     opacity: .75;
 }
-.link{
-    margin-right: 52px;
+.link1{
+    margin-right: 40px;
     font-family: 'Montserrat'sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 26px;
+    line-height: 24px;
     color: #F5F5F5;
     text-decoration: none;
+    position: relative;
+    cursor: pointer;
 }
+.link2{
+    margin-right: 40px;
+    font-family: 'Montserrat'sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F5F5F5;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+}
+.link3{
+    margin-right: 40px;
+    font-family: 'Montserrat'sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F5F5F5;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+}
+
 .link4{
     font-family: 'Montserrat'sans-serif;
     font-style: normal;
@@ -64,7 +91,102 @@ body{
     line-height: 24px;
     color: #F5F5F5;
     text-decoration: none;
+    position: relative;
+    cursor: pointer;
 }
+.link1:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: #F5F5F5; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.link1:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: #F5F5F5; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.link2:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: #F5F5F5; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.link2:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: #F5F5F5; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.link3:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: #F5F5F5; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.link3:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: #F5F5F5; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.link4:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: #F5F5F5; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.link4:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: #F5F5F5; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+     
 /* Header End */
 /* Wood Start */
 .wood__back{
@@ -445,3 +567,79 @@ color: #F5F5F5;
     animation: line1-anim 1s 1;
 }
   /* Solid Animation End */
+  /* Work Start */
+.our__work{
+  position: absolute;
+width: 532px;
+height: 120px;
+left: 238px;
+top: 2450px;
+
+font-family: 'KyivType Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 90px;
+line-height: 132.9%;
+/* identical to box height, or 120px */
+
+text-transform: uppercase;
+filter: drop-shadow(0px 4px 8px rgba(245, 245, 245, 0.17)); 
+color: #F5F5F5;
+}
+.work__img{
+    position: absolute;
+    width: 1130px;
+    height: 754px;
+    left: 390px;
+    top: 2760px;
+    filter: drop-shadow(0px 4px 8px rgba(245, 245, 245, 0.17)); 
+}
+.arrow-right{
+    position: absolute;
+    width: 52.08px;
+    height: 50px;
+    left: 1594px;
+    top: 3112px;
+    border-radius: 50%;
+}
+.arrow-left{
+    position: absolute;
+    width: 52.08px;
+    height: 50px;
+    left: 270px;
+    top: 3112px;
+    border-radius: 50%;
+}
+.arrow-left:focus, .arrow-left:active, .arrow-left:hover{
+    opacity: .80;
+    background-color: #F5F5F5;
+}
+.arrow-right:focus, .arrow-right:active, .arrow-right:hover{
+    opacity: .80;
+    background-color: #F5F5F5;
+}
+.el1{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 830px;
+    top: 3540px;
+}
+.el2{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 930px;
+    top: 3540px;
+}
+.el3{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 1030px;
+    top: 3540px;
+}
+
+
+
+     
