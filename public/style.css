@@ -186,3 +186,262 @@ color: #F5F5F5;
     filter: drop-shadow(0px 4px 8px rgba(245, 245, 245, 0.17)); 
 }
 /* Wood End */
+/* Materials Start */
+.me__work{
+    position: absolute;
+    width: 746px;
+    height: 230px;
+    left: 243px;
+    top: 1246px;
+
+    font-family: 'KyivType Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 132.9%;
+    filter: drop-shadow(0px 4px 8px rgba(245, 245, 245, 0.17)); 
+}
+.mat1{
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    left: 180px;
+    top: 1626px;
+    filter: drop-shadow(0px 4px 8px rgba(245, 245, 245, 0.17)); 
+}
+.mat2{
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    left: 830px;
+    top: 1626px;
+    filter: drop-shadow(0px 4px 8px rgba(245, 245, 245, 0.17)); 
+}
+.mat3{
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    left: 1450px;
+    top: 1626px;
+    filter: drop-shadow(0px 4px 8px rgba(245, 245, 245, 0.17)); 
+}
+.oak__title{
+    position: absolute;
+    width: 277px;
+    height: 560px;
+    left: 240px;
+    top: 1830px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+.oak{
+    list-style-type:none;
+    position: absolute;
+    width: 277px;
+    height: 560px;
+    left: 156px;
+    top: 1900px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;  
+}
+.Y1{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 156px;
+    top: 1930px;
+}
+.Y2{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 156px;
+    top: 1995px;
+}
+.Y3{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 156px;
+    top: 2080px;
+}
+.X{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 156px;
+    top: 2140px;
+}
+.buk__title{
+    position: absolute;
+    width: 277px;
+    height: 560px;
+    left: 900px;
+    top: 1830px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+.buk{
+    list-style-type:none;
+    position: absolute;
+    width: 277px;
+    height: 560px;
+    left: 820px;
+    top: 1900px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px; 
+}
+.Y1_buk{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 825px;
+    top: 1930px;
+}
+.X_buk{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 825px;
+    top: 1990px;
+}
+.ash__title{
+    position: absolute;
+    width: 58px;
+    height: 36px;
+    left: 1520px;
+    top: 1830px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+.ash{
+    list-style-type:none;
+    position: absolute;
+    width: 277px;
+    height: 560px;
+    left: 1440px;
+    top: 1900px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px; 
+}
+.Y1_ash{
+    position: absolute;
+    left: 1440px;
+    top: 1930px;
+}
+.X_ash{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1440px;
+    top: 1990px;
+}
+/* Mat Opacity */
+.mat1:hover, .mat1:active, .mat1:focus{
+    opacity: .95;
+}
+.mat2:hover, .mat2:active, .mat2:focus{
+    opacity: .95;
+}
+.mat3:hover, .mat3:active, .mat3:focus{
+    opacity: .95;
+}
+/* Materials End */
+/* Solid Animation Start */
+.wood1-anim {
+    animation: wipe-enter 2s 1
+  }
+  @keyframes wipe-enter {
+    0% {
+      transform: scale(0, .050)
+    }
+    50% {
+      transform: scale(1, .050)
+    }
+  }
+  .wood2-anim {
+    animation: wipe-enter 2s 1
+  }
+  @keyframes wipe-enter {
+    0% {
+      transform: scale(0, .025)
+    }
+    50% {
+      transform: scale(1, .025)
+    }
+  }
+  .wood3-anim {
+    animation: wipe-enter 2s 1
+  }
+  @keyframes wipe-enter {
+    0% {
+      transform: scale(0, .025)
+    }
+    50% {
+      transform: scale(1, .025)
+    }
+  }
+
+/* Text */
+@keyframes solid-anim {
+    from { left: 0; }
+    to { left: 650px; }
+}
+.solid{
+    animation: solid-anim 2s 1;
+
+}
+
+@keyframes solid__under-anim{
+    from {left:0;}
+    to {left: 650px;}
+}
+.solid__under-anim{
+    animation: solid__under-anim 2s 1;
+}
+/* Button */
+@keyframes solid__button-anim{
+    from{top: 1200px;}
+    to {top: 750px;}
+}
+.solid__button-anim{
+    animation: solid__button-anim 2s 1;
+}
+/* Wood Grow */
+@keyframes wood__grow-anim{
+    from{left:-0;}
+    to{left: 595px;}
+}
+.wood__grow-anim{
+    animation: wood__grow-anim 1s 1;
+}
+/* Line */
+@keyframes line1-anim{
+    from{left: -100px;}
+    to{left: 950px;}
+}
+.line1-anim{
+    animation: line1-anim 1s 1;
+}
+  /* Solid Animation End */
