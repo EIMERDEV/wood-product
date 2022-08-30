@@ -647,3 +647,79 @@ color: #F5F5F5;
     left: 1030px;
     top: 3540px;
 }
+
+.el1:hover{
+    background-color: #d5dcee;
+    border-radius: 55%;
+}
+.el3:hover{
+    background-color: #d5dcee;
+    border-radius: 55%;
+}
+/* Work End */
+/* With Start */
+.worwith__title{
+    position: absolute;
+    width: 1040px;
+    height: 230px;
+    left: 405px;
+    top: 3900px;
+
+    font-family: 'KyivType Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 132.9%;
+    text-align: center;
+}
+.video{
+    position: absolute;
+    width: 609px;
+    height: 386px;
+    left: 150px;
+    top: 4350px;
+}
+.worwith__p1{
+    position: absolute;
+    width: 387px;
+    height: 84px;
+    left: 1000px;
+    top: 4300px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 139.4%;
+}
+.button__with{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 70px;
+    gap: 10px;
+
+    position: absolute;
+    width: 472px;
+    height: 58px;
+    left: 700px;
+    top: 4900px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 36px;
+    text-align: center;
+
+
+    color: #F5F5F5;
+    border: 1px solid #728BAD;
+
+    background: #728BAD;
+    border-radius: 42px;
+}
+.button__with:hover{
+    opacity: .75;
+    
+}
