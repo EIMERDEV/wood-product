@@ -723,3 +723,56 @@ color: #F5F5F5;
     opacity: .75;
     
 }
+.svg{
+    position: absolute;
+width: 1325px;
+height: 775px;
+left:0px;
+top: 5000px;
+}
+.svg1{
+    position: absolute;
+width: 501px;
+height: 120px;
+left: 243px;
+top: 5044px;
+
+font-family: 'KyivType Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 90px;
+line-height: 132.9%;
+/* identical to box height, or 120px */
+
+text-transform: uppercase;
+
+color: #F5F5F5;
+}
+.svg2{
+    position: absolute;
+    width: 516px;
+    height: 294px;
+    left: 253px;
+    top: 5231px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 139.4%;
+    /* or 42px */
+    
+    
+    color: #F5F5F5;
+      
+}
+.png1{
+    position: absolute;
+width: 337px;
+height: 337px;
+left: 831px;
+top: 5177px
+}
+.png2{
+    
+}
