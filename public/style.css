@@ -574,6 +574,14 @@ color: #F5F5F5;
 .header__logo-anim{
     animation: header__logo-anim 1.5s 1;
 }
+
+.png2-anim{
+    animation: wipe-enter 1s 1;
+}
+.png3-anim{
+    animation: wipe-enter 1s 1;
+}
+
   /* Solid Animation End */
   /* Work Start */
 .our__work{
@@ -783,14 +791,16 @@ color: #F5F5F5;
     
     color: #F5F5F5;
 }
+
 .png1{
+    
     position: absolute;
     width: 337px;
     height: 337px;
     left: 831px;
-    top: 5177px
-    
-
+    top: 5177px;
+    border: 10px solid #1E0C06;
+    border-radius: 42px;
 }
 .png2{
     position: absolute;
@@ -798,4 +808,11 @@ color: #F5F5F5;
     height: 205px;
     left: 1050px;
     top: 5050px
+}
+.png3{
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    left: 1040px;
+    top: 5540px
 }
