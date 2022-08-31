@@ -703,7 +703,7 @@ color: #F5F5F5;
     width: 472px;
     height: 58px;
     left: 700px;
-    top: 4900px;
+    top: 4850px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -725,30 +725,30 @@ color: #F5F5F5;
 }
 .svg{
     position: absolute;
-width: 1325px;
-height: 775px;
-left:0px;
-top: 5000px;
+    width: 1325px;
+    height: 775px;
+    left:0px;
+    top: 5000px;
 }
-.svg1{
+.abus__title{
     position: absolute;
-width: 501px;
-height: 120px;
-left: 243px;
-top: 5044px;
+    width: 501px;
+    height: 120px;
+    left: 243px;
+    top: 5000px;
 
-font-family: 'KyivType Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 90px;
-line-height: 132.9%;
-/* identical to box height, or 120px */
+    font-family: 'KyivType Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 132.9%;
 
-text-transform: uppercase;
 
-color: #F5F5F5;
+    text-transform: uppercase;
+
+    color: #F5F5F5;
 }
-.svg2{
+.abus__under{
     position: absolute;
     width: 516px;
     height: 294px;
@@ -766,13 +766,36 @@ color: #F5F5F5;
     color: #F5F5F5;
       
 }
+.abus__under2{
+    position: absolute;
+    width: 516px;
+    height: 294px;
+    left: 400px;
+    top: 5231px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 139.4%;
+    /* or 42px */
+    
+    
+    color: #F5F5F5;
+}
 .png1{
     position: absolute;
-width: 337px;
-height: 337px;
-left: 831px;
-top: 5177px
+    width: 337px;
+    height: 337px;
+    left: 831px;
+    top: 5177px
+    
+
 }
 .png2{
-    
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    left: 1050px;
+    top: 5050px
 }
